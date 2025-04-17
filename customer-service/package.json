@@ -1,0 +1,20 @@
+{
+    "name": "customer-service",
+    "version": "1.0.0",
+    "description": "Customer Microservice",
+    "main": "src/app.js",
+    "scripts": {
+      "start": "node src/app.js",
+      "dev": "nodemon src/app.js",
+      "test": "jest"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "pg": "^8.7.1",
+      "dotenv": "^10.0.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.7",
+      "jest": "^27.0.6"
+    }
+  }
